@@ -1,0 +1,569 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B85F302B1C1495F5003E9299 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F302A1C1495F5003E9299 /* main.m */; };
+		B85F302E1C1495F5003E9299 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F302D1C1495F5003E9299 /* AppDelegate.m */; };
+		B85F30311C1495F5003E9299 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F30301C1495F5003E9299 /* ViewController.m */; };
+		B85F30341C1495F5003E9299 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85F30321C1495F5003E9299 /* Main.storyboard */; };
+		B85F30361C1495F5003E9299 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B85F30351C1495F5003E9299 /* Assets.xcassets */; };
+		B85F30391C1495F5003E9299 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B85F30371C1495F5003E9299 /* LaunchScreen.storyboard */; };
+		B85F30441C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F30431C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.m */; };
+		B85F304F1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F304E1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.m */; };
+		B85F30681C149603003E9299 /* JKBackButton.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F305E1C149603003E9299 /* JKBackButton.m */; settings = {ASSET_TAGS = (); }; };
+		B85F30691C149603003E9299 /* JKCacheSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F30601C149603003E9299 /* JKCacheSlider.m */; settings = {ASSET_TAGS = (); }; };
+		B85F306A1C149603003E9299 /* JKMoviePlayerPortraitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B85F30621C149603003E9299 /* JKMoviePlayerPortraitViewController.m */; settings = {ASSET_TAGS = (); }; };
+		B85F306B1C149603003E9299 /* next.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F30641C149603003E9299 /* next.png */; settings = {ASSET_TAGS = (); }; };
+		B85F306C1C149603003E9299 /* pause.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F30651C149603003E9299 /* pause.png */; settings = {ASSET_TAGS = (); }; };
+		B85F306D1C149603003E9299 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F30661C149603003E9299 /* play.png */; settings = {ASSET_TAGS = (); }; };
+		B85F306E1C149603003E9299 /* thum.png in Resources */ = {isa = PBXBuildFile; fileRef = B85F30671C149603003E9299 /* thum.png */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B85F30401C1495F5003E9299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85F301E1C1495F5003E9299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85F30251C1495F5003E9299;
+			remoteInfo = JKMoviePlayerPortraitViewControllerExample;
+		};
+		B85F304B1C1495F5003E9299 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B85F301E1C1495F5003E9299 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B85F30251C1495F5003E9299;
+			remoteInfo = JKMoviePlayerPortraitViewControllerExample;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		B85F30261C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JKMoviePlayerPortraitViewControllerExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85F302A1C1495F5003E9299 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		B85F302C1C1495F5003E9299 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B85F302D1C1495F5003E9299 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		B85F302F1C1495F5003E9299 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		B85F30301C1495F5003E9299 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		B85F30331C1495F5003E9299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B85F30351C1495F5003E9299 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B85F30381C1495F5003E9299 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B85F303A1C1495F5003E9299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85F303F1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKMoviePlayerPortraitViewControllerExampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85F30431C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMoviePlayerPortraitViewControllerExampleTests.m; sourceTree = "<group>"; };
+		B85F30451C1495F5003E9299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85F304A1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JKMoviePlayerPortraitViewControllerExampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B85F304E1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JKMoviePlayerPortraitViewControllerExampleUITests.m; sourceTree = "<group>"; };
+		B85F30501C1495F5003E9299 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B85F305D1C149603003E9299 /* JKBackButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKBackButton.h; sourceTree = "<group>"; };
+		B85F305E1C149603003E9299 /* JKBackButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKBackButton.m; sourceTree = "<group>"; };
+		B85F305F1C149603003E9299 /* JKCacheSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKCacheSlider.h; sourceTree = "<group>"; };
+		B85F30601C149603003E9299 /* JKCacheSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKCacheSlider.m; sourceTree = "<group>"; };
+		B85F30611C149603003E9299 /* JKMoviePlayerPortraitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JKMoviePlayerPortraitViewController.h; sourceTree = "<group>"; };
+		B85F30621C149603003E9299 /* JKMoviePlayerPortraitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JKMoviePlayerPortraitViewController.m; sourceTree = "<group>"; };
+		B85F30641C149603003E9299 /* next.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = next.png; sourceTree = "<group>"; };
+		B85F30651C149603003E9299 /* pause.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = pause.png; sourceTree = "<group>"; };
+		B85F30661C149603003E9299 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+		B85F30671C149603003E9299 /* thum.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thum.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B85F30231C1495F5003E9299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F303C1C1495F5003E9299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F30471C1495F5003E9299 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B85F301D1C1495F5003E9299 = {
+			isa = PBXGroup;
+			children = (
+				B85F305C1C149603003E9299 /* JKMoviePlayerPortraitViewController */,
+				B85F30281C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */,
+				B85F30421C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests */,
+				B85F304D1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests */,
+				B85F30271C1495F5003E9299 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B85F30271C1495F5003E9299 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B85F30261C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample.app */,
+				B85F303F1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.xctest */,
+				B85F304A1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B85F30281C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */ = {
+			isa = PBXGroup;
+			children = (
+				B85F302C1C1495F5003E9299 /* AppDelegate.h */,
+				B85F302D1C1495F5003E9299 /* AppDelegate.m */,
+				B85F302F1C1495F5003E9299 /* ViewController.h */,
+				B85F30301C1495F5003E9299 /* ViewController.m */,
+				B85F30321C1495F5003E9299 /* Main.storyboard */,
+				B85F30351C1495F5003E9299 /* Assets.xcassets */,
+				B85F30371C1495F5003E9299 /* LaunchScreen.storyboard */,
+				B85F303A1C1495F5003E9299 /* Info.plist */,
+				B85F30291C1495F5003E9299 /* Supporting Files */,
+			);
+			path = JKMoviePlayerPortraitViewControllerExample;
+			sourceTree = "<group>";
+		};
+		B85F30291C1495F5003E9299 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				B85F302A1C1495F5003E9299 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		B85F30421C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests */ = {
+			isa = PBXGroup;
+			children = (
+				B85F30431C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.m */,
+				B85F30451C1495F5003E9299 /* Info.plist */,
+			);
+			path = JKMoviePlayerPortraitViewControllerExampleTests;
+			sourceTree = "<group>";
+		};
+		B85F304D1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B85F304E1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.m */,
+				B85F30501C1495F5003E9299 /* Info.plist */,
+			);
+			path = JKMoviePlayerPortraitViewControllerExampleUITests;
+			sourceTree = "<group>";
+		};
+		B85F305C1C149603003E9299 /* JKMoviePlayerPortraitViewController */ = {
+			isa = PBXGroup;
+			children = (
+				B85F305D1C149603003E9299 /* JKBackButton.h */,
+				B85F305E1C149603003E9299 /* JKBackButton.m */,
+				B85F305F1C149603003E9299 /* JKCacheSlider.h */,
+				B85F30601C149603003E9299 /* JKCacheSlider.m */,
+				B85F30611C149603003E9299 /* JKMoviePlayerPortraitViewController.h */,
+				B85F30621C149603003E9299 /* JKMoviePlayerPortraitViewController.m */,
+				B85F30631C149603003E9299 /* playControlImage */,
+			);
+			path = JKMoviePlayerPortraitViewController;
+			sourceTree = "<group>";
+		};
+		B85F30631C149603003E9299 /* playControlImage */ = {
+			isa = PBXGroup;
+			children = (
+				B85F30641C149603003E9299 /* next.png */,
+				B85F30651C149603003E9299 /* pause.png */,
+				B85F30661C149603003E9299 /* play.png */,
+				B85F30671C149603003E9299 /* thum.png */,
+			);
+			path = playControlImage;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B85F30251C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85F30531C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExample" */;
+			buildPhases = (
+				B85F30221C1495F5003E9299 /* Sources */,
+				B85F30231C1495F5003E9299 /* Frameworks */,
+				B85F30241C1495F5003E9299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JKMoviePlayerPortraitViewControllerExample;
+			productName = JKMoviePlayerPortraitViewControllerExample;
+			productReference = B85F30261C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B85F303E1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85F30561C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExampleTests" */;
+			buildPhases = (
+				B85F303B1C1495F5003E9299 /* Sources */,
+				B85F303C1C1495F5003E9299 /* Frameworks */,
+				B85F303D1C1495F5003E9299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85F30411C1495F5003E9299 /* PBXTargetDependency */,
+			);
+			name = JKMoviePlayerPortraitViewControllerExampleTests;
+			productName = JKMoviePlayerPortraitViewControllerExampleTests;
+			productReference = B85F303F1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B85F30491C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B85F30591C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExampleUITests" */;
+			buildPhases = (
+				B85F30461C1495F5003E9299 /* Sources */,
+				B85F30471C1495F5003E9299 /* Frameworks */,
+				B85F30481C1495F5003E9299 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B85F304C1C1495F5003E9299 /* PBXTargetDependency */,
+			);
+			name = JKMoviePlayerPortraitViewControllerExampleUITests;
+			productName = JKMoviePlayerPortraitViewControllerExampleUITests;
+			productReference = B85F304A1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B85F301E1C1495F5003E9299 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = Emerys;
+				TargetAttributes = {
+					B85F30251C1495F5003E9299 = {
+						CreatedOnToolsVersion = 7.0.1;
+					};
+					B85F303E1C1495F5003E9299 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B85F30251C1495F5003E9299;
+					};
+					B85F30491C1495F5003E9299 = {
+						CreatedOnToolsVersion = 7.0.1;
+						TestTargetID = B85F30251C1495F5003E9299;
+					};
+				};
+			};
+			buildConfigurationList = B85F30211C1495F5003E9299 /* Build configuration list for PBXProject "JKMoviePlayerPortraitViewControllerExample" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B85F301D1C1495F5003E9299;
+			productRefGroup = B85F30271C1495F5003E9299 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B85F30251C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */,
+				B85F303E1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests */,
+				B85F30491C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B85F30241C1495F5003E9299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F30391C1495F5003E9299 /* LaunchScreen.storyboard in Resources */,
+				B85F30361C1495F5003E9299 /* Assets.xcassets in Resources */,
+				B85F306C1C149603003E9299 /* pause.png in Resources */,
+				B85F306B1C149603003E9299 /* next.png in Resources */,
+				B85F30341C1495F5003E9299 /* Main.storyboard in Resources */,
+				B85F306D1C149603003E9299 /* play.png in Resources */,
+				B85F306E1C149603003E9299 /* thum.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F303D1C1495F5003E9299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F30481C1495F5003E9299 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B85F30221C1495F5003E9299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F30311C1495F5003E9299 /* ViewController.m in Sources */,
+				B85F30691C149603003E9299 /* JKCacheSlider.m in Sources */,
+				B85F306A1C149603003E9299 /* JKMoviePlayerPortraitViewController.m in Sources */,
+				B85F302E1C1495F5003E9299 /* AppDelegate.m in Sources */,
+				B85F302B1C1495F5003E9299 /* main.m in Sources */,
+				B85F30681C149603003E9299 /* JKBackButton.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F303B1C1495F5003E9299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F30441C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B85F30461C1495F5003E9299 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B85F304F1C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExampleUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B85F30411C1495F5003E9299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85F30251C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */;
+			targetProxy = B85F30401C1495F5003E9299 /* PBXContainerItemProxy */;
+		};
+		B85F304C1C1495F5003E9299 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B85F30251C1495F5003E9299 /* JKMoviePlayerPortraitViewControllerExample */;
+			targetProxy = B85F304B1C1495F5003E9299 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B85F30321C1495F5003E9299 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85F30331C1495F5003E9299 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B85F30371C1495F5003E9299 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B85F30381C1495F5003E9299 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B85F30511C1495F5003E9299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		B85F30521C1495F5003E9299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B85F30541C1495F5003E9299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B85F30551C1495F5003E9299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExample/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B85F30571C1495F5003E9299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKMoviePlayerPortraitViewControllerExample.app/JKMoviePlayerPortraitViewControllerExample";
+			};
+			name = Debug;
+		};
+		B85F30581C1495F5003E9299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExampleTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExampleTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JKMoviePlayerPortraitViewControllerExample.app/JKMoviePlayerPortraitViewControllerExample";
+			};
+			name = Release;
+		};
+		B85F305A1C1495F5003E9299 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKMoviePlayerPortraitViewControllerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B85F305B1C1495F5003E9299 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = JKMoviePlayerPortraitViewControllerExampleUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = net.buakawlee.www.JKMoviePlayerPortraitViewControllerExampleUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = JKMoviePlayerPortraitViewControllerExample;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B85F30211C1495F5003E9299 /* Build configuration list for PBXProject "JKMoviePlayerPortraitViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85F30511C1495F5003E9299 /* Debug */,
+				B85F30521C1495F5003E9299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B85F30531C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85F30541C1495F5003E9299 /* Debug */,
+				B85F30551C1495F5003E9299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85F30561C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExampleTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85F30571C1495F5003E9299 /* Debug */,
+				B85F30581C1495F5003E9299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		B85F30591C1495F5003E9299 /* Build configuration list for PBXNativeTarget "JKMoviePlayerPortraitViewControllerExampleUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B85F305A1C1495F5003E9299 /* Debug */,
+				B85F305B1C1495F5003E9299 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B85F301E1C1495F5003E9299 /* Project object */;
+}
